@@ -12,18 +12,12 @@ public class GameManager : MonoBehaviour
     public TMP_Text countdownText;
     public GameObject pauseDialog;
     public GameObject gameOverDialog;
-    public float AI_faultPercents = 5;
 
 
     private void Awake()
     {
         instance = this;
 
-        var ais = FindObjectsOfType<AIConponent>();
-        for (int i = 0; i < ais.Length; i++)
-        {
-            ais[i].faultPercent = AI_faultPercents;
-        }
     }
 
     // Start is called before the first frame update

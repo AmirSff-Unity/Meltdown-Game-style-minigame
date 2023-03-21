@@ -33,12 +33,12 @@ public class Character : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
             {
-                Cruch(true);
+                Crouch(true);
             }
 
             if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
             {
-                Cruch(false);
+                Crouch(false);
             }
         }
     }
@@ -48,7 +48,7 @@ public class Character : MonoBehaviour
         SetAnimatorTrigger(CharacterAnimatorKeys.Jump);
     }
 
-    public void Cruch(bool sit, bool onlySetTrigger = false)
+    public void Crouch(bool sit, bool onlySetTrigger = false)
     {
         if (sit)
             SetAnimatorTrigger(CharacterAnimatorKeys.SitTrigger);

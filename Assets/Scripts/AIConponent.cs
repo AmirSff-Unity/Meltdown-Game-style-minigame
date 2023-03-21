@@ -35,7 +35,7 @@ public class AIConponent : MonoBehaviour
         {
             if (other.transform.position.y > detectObject.transform.position.y)
             {
-                character.Cruch(true, true);
+                character.Crouch(true, true);
             }
             else
             {

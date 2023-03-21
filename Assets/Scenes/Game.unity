@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9144292565ac441438b1319cc2bc5b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faultPercent: 10
 --- !u!1 &317931891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2257,6 +2258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9144292565ac441438b1319cc2bc5b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faultPercent: 5
 --- !u!1 &1376568882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +3658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9144292565ac441438b1319cc2bc5b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faultPercent: 5
 --- !u!1001 &308896275342733455
 PrefabInstance:
   m_ObjectHideFlags: 0
